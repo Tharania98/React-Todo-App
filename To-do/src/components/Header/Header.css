@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  gap: 10px;
+  place-items: center;
+  padding: 20px;
+  height: 80px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.205);
+  transform: scale(1);
+}
+.header__title,
+.header__icon,
+.header__tasks {
+  font-size: 25px;
+color: #00bfb2;
+/* image: linear-gradient(315deg, #00bfb2 0%, #028090 74%); */
+}
+.header__icon {
+  width: 40px;
+}
+.nav{
+  padding-left: 900px;
+}
